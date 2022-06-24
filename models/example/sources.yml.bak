@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: Snowflake_Source
+    database: DEMO1
+    schema: DBT_MLAMBORE
+    tables:
+      - name: OLTP
+      - name: owners

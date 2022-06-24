@@ -1,0 +1,27 @@
+
+version: 2
+
+models:
+  - name: base
+    description: "First Model"
+    columns:
+      - name: PLATFORM
+        tests:
+          - unique
+          - not_null
+
+  - name: staging
+    description: "Second model"
+    columns:
+      - name: PLATFORM
+        tests:
+          - unique
+          - not_null
+          
+  - name: final
+    description: "Third Model"
+    columns:
+      - name: PLATFORM
+        tests:
+          - unique
+          - not_null
